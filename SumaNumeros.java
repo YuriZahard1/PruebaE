@@ -14,12 +14,15 @@ public class SumaNumeros {
         
         System.out.print("Introduce el segundo número: ");
         int numero3 = scanner.nextInt();
+        
+        System.out.print("Introduce el segundo número: ");
+        int numero4 = scanner.nextInt();
 
         // Sumar los dos números
-        int suma = numero1 + numero2 + numero3;
+        int suma = numero1 + numero2 + numero3 + numero4;
 
         // Mostrar el resultado de la suma
-        System.out.println("La suma de " + numero1 + " y " + numero2 + " y " + numero3 + " es: " + suma);
+        System.out.println("La suma de " + numero1 + " , " + numero2 + " , " + numero3 + " y " + numero1 + " es: " + suma);
 
         // Cerrar el scanner
         scanner.close();
